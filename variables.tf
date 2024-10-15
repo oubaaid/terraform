@@ -27,7 +27,7 @@ variable "environment" {
 
   default = {
   name            = "dev"
-  cnetwork_prefix = "10.0.0.0/16"
+  network_prefix = "10.0.0.0/16"
   }
 
 

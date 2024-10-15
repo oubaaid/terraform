@@ -29,6 +29,7 @@ variable "environment" {
   name            = "dev"
   network_prefix = "10.0.0.0/16"
   }
+}
 
 
 variable "asg_min_size" {
